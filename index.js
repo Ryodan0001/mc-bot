@@ -9,8 +9,8 @@ http.createServer((req, res) => {
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'RYODANN_IP_BURAYA', // Buraya FalixNodes IP'ni yaz
-        port: 25565,                // Portun farklıysa düzelt
+        host: 'ryodann.falixsrv.me', // Buraya FalixNodes IP'ni yaz
+        port: 49319,                // Portun farklıysa düzelt
         username: 'Bot_724', 
         version: '1.21.1'
     })
